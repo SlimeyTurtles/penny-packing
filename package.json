@@ -1,0 +1,26 @@
+{
+  "name": "avinhahuynh",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.86.3",
+    "@react-three/fiber": "^8.14.3",
+    "next": "^13.5.6",
+    "react": "latest",
+    "react-dom": "latest",
+    "three": "^0.157.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest"
+  }
+}

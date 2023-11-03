@@ -14,9 +14,8 @@ export default function Home() {
   const [map, setMap] = useState([]);
   
   function request() {
-    // http://localhost:8080/api/square/
-    // https://penny-packing-backend-gwwxnnosfq-uw.a.run.app/api/square/
-    fetch(`http://localhost:8080/api/square/${turkeySize}`)
+    fetch(`https://penny-packing-backend-gwwxnnosfq-uw.a.run.app/api/square/${turkeySize}`)
+    // fetch(`http://localhost:8080/api/square/${turkeySize}`)
       .then(response => { 
         if (response.ok) { 
           return response.json(); 

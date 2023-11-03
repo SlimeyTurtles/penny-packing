@@ -1,4 +1,10 @@
 .shapeForum {
-    z-index: 2;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.shapeForum--title {
+    font-size: large;
+    align-self: center;
 }

@@ -1,0 +1,16 @@
+.canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.shapeForum {
+    position: fixed;
+    top: 5vh;
+    left: 2vw;
+    z-index: 2;
+
+    width: 20vw;
+    background: green;
+    padding: 10px;
+}

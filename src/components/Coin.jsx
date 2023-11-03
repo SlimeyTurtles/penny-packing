@@ -1,6 +1,6 @@
 function Coin(props) {
-    var height = props.height;
-    var radius = props.radius;
+    var height = 1
+    var radius = 1;
     var x = props.position[0]
     var y = props.position[1]
     var z = props.position[2]

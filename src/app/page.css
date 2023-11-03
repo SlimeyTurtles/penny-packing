@@ -14,3 +14,14 @@
     background: green;
     padding: 10px;
 }
+
+.run {
+    position: fixed;
+    bottom: 5vh;
+    left: 2vw;
+    z-index: 2;
+
+    width: 20vw;
+    background: green;
+    padding: 10px;
+}
